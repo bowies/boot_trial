@@ -1,11 +1,15 @@
 package com.example.boots_get_tired.test.model;
 
+import lombok.Data;
+
+@Data
 public class SearchVO {
     private String name;
     private String email;
     private int page;
 
-    //getter / setter 단축키 : alt + insert
+    //230304 : getter / setter 단축키 : alt + insert
+    //230305 : lombok 추가 @Data
     public String getName() {
         return name;
     }

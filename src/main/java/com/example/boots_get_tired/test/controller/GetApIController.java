@@ -42,5 +42,4 @@ public class GetApIController {
         return searchVO;
     }
 
-
 }
